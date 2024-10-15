@@ -1,0 +1,455 @@
+/* BODY */
+
+a {
+    text-decoration: none;
+    color: #464646;
+}
+
+body {
+    padding: 5px 100px 10px 100px;
+    font-family: 'Raleway',sans-serif;
+}
+
+/* CABEÇALHO */
+
+.cabecalho__logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cabecalho__logo h1 {
+    font-size: 16px;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cabecalho__links__lista{
+    display: flex;
+    gap: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    list-style: none;
+    color: #464646;
+}
+
+/* APRESENTAÇÃO */
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.apresentacao__imagem img {
+    width: 398px;
+    height: 398px;
+    border-radius: 50%;
+}
+
+.apresentacao__cabecalho {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.apresentacao__cabecalho h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 61.05px;
+    padding-right: 70px;
+    margin: 19px;
+}
+
+.apresentacao__cabecalho h2{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.83px;
+    margin: 19px;
+}
+
+.apresentacao__redes__sociais__lista {
+    display: flex;
+    gap: 32px;
+    margin: 19px;
+    list-style: none;
+    padding: 0;
+}
+
+/* BIOGRAFIA */
+
+.apresentacao__biografia {
+    padding-top: 50px;
+    margin: 0;
+}
+
+.apresentacao__biografia__usuario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 751px;
+}
+
+.apresentacao__biografia__usuario h2 {
+    margin: 0px 0px 0px 19px;
+    font-size: 32px;
+}
+
+.apresentacao__biografia__usuario p {
+    margin: 0 0 0 19px;
+}
+
+.apresentacao__biografia__usuario figure {
+    width: 140px;
+    margin: 0 0 0 19px;
+}
+
+/* SKILLS */
+
+.apresentacao__skill__hobbies {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+
+.apresentacao__skill__hobbies h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.apresentacao__skill, .apresentacao__hobbies {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+/* FORMAÇÃO */
+
+.apresentacao__academica {
+    
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.apresentacao__academica h2 {
+    font-size: 32px;
+}
+
+.apresentacao__academica__usuario {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    font-size: 16px;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.apresentacao__academica__usuario img {
+    width: 100%;
+    height: 130px;
+}
+
+.apresentacao__academica__usuario figcaption {
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 22px;
+    width: 100%;
+}
+
+.apresentacao__academica__usuario h3 {
+    margin: 8px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+/* PROJETOS */
+
+#Projetos {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.apresentacao__profissional {
+    align-items: center;
+    text-align: center;
+    padding-top: 50PX;
+}
+
+.apresentacao__decodificador {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin: 0;
+    align-items: center;
+    gap: 30px;
+}
+
+.apresentacao__decodificador img {
+    width: 75%;
+}
+
+.apresentacao__decodificador__botao {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+
+.apresentacao__decodificador__botao button {
+    width: 150px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: rgba(42, 122, 228, 1);
+    border-color: rgba(42, 122, 228, 1);
+}
+
+#decodificador__texto__botao1, #jogo__secreto__botao1 {
+    height: 35px;
+    color: white;
+}
+
+#decodificador__texto__botao2, #jogo__secreto__botao2 {
+    background-color: white;
+    color: rgba(42, 122, 228, 1);
+    height: 35px;
+}
+
+.apresentacao__jogo__secreto {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin: 0;
+    align-items: center;
+    gap: 30px;
+}
+
+.apresentacao__jogo__secreto img {
+    width: 75%;
+}
+
+.apresentacao__jogo__secreto__botao {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+
+.apresentacao__jogo__secreto__botao a {
+    color: white;
+}
+
+.apresentacao__jogo__secreto__botao button{
+    width: 150px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: rgba(42, 122, 228, 1);
+    border-color: rgba(42, 122, 228, 1);
+}
+
+#jogo__secreto__botao2 a {
+    color: black;
+}
+
+/* CONTATO */
+
+#Contato {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.apresentacao__contato {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    justify-content: start;
+}
+
+.apresentacao__contato p {
+    margin: 0;
+}
+
+.apresentacao__contato__label {
+    padding-top: 32px;
+    padding-left: 7px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    color: #A2A2A2;
+    
+}
+
+.apresentacao__contato__imagem img {
+    width: 100%;
+}
+
+.apresentacao__formulario {
+    width: 55%;
+}
+
+.apresentacao__contato__label input,
+.apresentacao__contato__label textarea {
+    border: none; /* Remove as bordas padrão */
+    border-bottom: 2px solid grey; /* Adiciona uma linha inferior cinza */
+    background-color: transparent; /* Fundo transparente para um visual limpo */
+    padding: 5px;
+     /* Ajuste de largura para o input ocupar o espaço necessário */
+    transition: border-color 0.3s ease; /* Animação para a cor da borda */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.apresentacao__contato__label input:focus,
+.apresentacao__contato__label textarea:focus {
+    border-bottom: 2px solid rgba(42, 122, 228, 1); /* Muda a cor da linha para azul ao focar */
+    outline: none; /* Remove a borda padrão de foco dos navegadores */
+}
+
+#botao__enviar__mensagem {
+    width: 130px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: rgba(42, 122, 228, 1);
+    border-color: rgba(42, 122, 228, 1);
+    color: white;
+}
+
+#nome, #email, #assunto, #mensagem {
+    width: 100%;
+}
+
+
+/* RODAPE */
+
+.apresentacao__rodape {
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 16px;
+    color: #464646;
+}
+
+.apresentacao__rodape h2 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.apresentacao__rodape h3 {
+    margin: 0;
+    font-weight: 500;
+}
+
+label:hover {
+    color: rgba(42, 122, 228, 1);
+}
+
+input:hover {
+    color: gray;
+}
+
+@media (max-width: 1520px) {
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+
+    .apresentacao__cabecalho {
+        text-align: center;
+    }
+    
+    .apresentacao__cabecalho h1 {
+        padding: 0;
+    }
+
+    .apresentacao__biografia__usuario {
+        width: 100%;
+        align-items: center;
+    }
+
+    .apresentacao__skill__hobbies {
+        padding-top: 50px;
+    }
+
+    .apresentacao__skill {
+        flex-wrap: wrap;
+    
+    }
+
+    .apresentacao__hobbies {
+        flex-wrap: wrap;
+    }
+
+    .apresentacao__academica__usuario {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .apresentacao__decodificador {
+        flex-wrap: wrap;
+    }
+
+    .apresentacao__jogo__secreto {
+        flex-wrap: wrap;
+    }
+
+    .apresentacao__contato {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0;
+        padding-top: 50px;
+        justify-content: center;
+    }
+    
+
+    
+
+}
+
+@media (max-width: 950px) {
+    
+    .cabecalho__logo {
+        display: none;
+    }
+
+    .cabecalho__links__lista {
+        justify-content: center;
+        padding: 0;
+    }
+
+    .cabecalho__links {
+        width: 100%;
+    }
+
+    .apresentacao__contato {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0;
+        padding-top: 50px;
+        justify-content: center;
+    }
+
+    .apresentacao__formulario {
+        width: 100%;
+        text-align: center;
+    }
+
+    .apresentacao__contato__label {
+        text-align: start;
+        padding: 0;
+    }
+}
